@@ -8,8 +8,8 @@ services:
       - db-data:/data/db mongo
       - mongo-config:/data/configdb
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_ROOT_PASSWORD=admin
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
 volumes:
   db-data:
   mongo-config:
